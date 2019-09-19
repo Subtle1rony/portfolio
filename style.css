@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	color: white;
+	background-color: #141212;
+}
+
+h1 {
+	
+}
+
+h3 {
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+div {
+}
+
+footer {
+
+}
+
+main{
+	min-width: 320px;
+	max-width: 1120px;
+  	margin: auto;
+}
+
+.header-container {
+	display: grid;
+	border: 2px blue solid;
+	/*grid-auto-rows: 90px;*/
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.project-container {
+	display: grid;
+  	border: 2px blue solid;
+  	grid-template-columns: repeat(auto-fill, minmax(320px, 400fr));
+  	/*grid-template: repeat(1, 1fr) / repeat(3, 1fr);*/
+  	/*align-items: center;*/
+  	justify-content: center;
+  	grid-gap: 20px;
+  	padding: 20px;
+
+}
+
+.name {
+	/*grid-column: 1 / span 1;*/
+	/*font-size: 32px;*/
+}
+
+.title {
+}
+
+.nav-links {
+	text-align: right;
+}
+
+.project-thumb > img{
+	object-fit: contain;
+	width: 100%;
+}
+
+.project-thumb > h3{
+  text-align: center;
+}
+
+.spacer01 {
+	padding-top: 20px;
+}
+
+.spacer02 {
+	padding-top: 40px;
+}
+
+.spacer03 {
+	padding-top: 20px;
+}
+
+.box {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+
+
+
+
