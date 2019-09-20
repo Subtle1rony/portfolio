@@ -2,19 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
-	color: white;
-	background-color: #141212;
+	color: #ececec;
+	background-color: #0a0909;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-	
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 35px;
+  font-weight: normal;
 }
 
 h3 {
-
 }
 
 ul {
@@ -29,6 +32,7 @@ li {
 }
 
 div {
+  /*border: 2px #383838 solid*/
 }
 
 footer {
@@ -38,34 +42,31 @@ footer {
 main{
 	min-width: 320px;
 	max-width: 1120px;
-  	margin: auto;
+  margin: auto;
 }
 
 .header-container {
 	display: grid;
-	border: 2px blue solid;
-	/*grid-auto-rows: 90px;*/
 	grid-template-columns: repeat(2, 1fr);
 }
 
 .project-container {
 	display: grid;
-  	border: 2px blue solid;
-  	grid-template-columns: repeat(auto-fill, minmax(320px, 400fr));
-  	/*grid-template: repeat(1, 1fr) / repeat(3, 1fr);*/
-  	/*align-items: center;*/
-  	justify-content: center;
-  	grid-gap: 20px;
-  	padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 400fr));
+  justify-content: center;
+  grid-gap: 20px;
 
 }
 
 .name {
-	/*grid-column: 1 / span 1;*/
-	/*font-size: 32px;*/
+
 }
 
 .title {
+  color: #e37001;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .nav-links {
@@ -81,8 +82,15 @@ main{
   text-align: center;
 }
 
+h3.project-title{
+  color: #929292;
+  font-size: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 .spacer01 {
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .spacer02 {
@@ -90,14 +98,14 @@ main{
 }
 
 .spacer03 {
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .box {
-  background-color: grey;
+  background-color: #191919;
   color: white;
   border-radius: 5px;
-  border: 2px dodgerblue solid;
+  border: 2px #262626 solid;
 }
 
 
