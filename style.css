@@ -40,21 +40,28 @@ footer {
 }
 
 main{
-	min-width: 320px;
-	max-width: 1120px;
+}
+
+.center-content {
+  min-width: 320px;
+  max-width: 1200px;
   margin: auto;
 }
 
 .header-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .project-container {
 	display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 400fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   justify-content: center;
   grid-gap: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
 
 }
 
