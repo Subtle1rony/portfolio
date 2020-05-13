@@ -32,7 +32,7 @@ li {
 }
 
 div {
-  /*border: 2px #383838 solid*/
+  border: 2px #383838 solid
 }
 
 header {
@@ -84,9 +84,23 @@ main{
   /*border: 2px #383838 solid*/
 }
 
-.name {
-
+.name a{
+  color: white
+  /*transition: all 0.3s linear;*/
+  /*-webkit-transition: all 0.3s linear;*/
 }
+
+.name a:hover{
+  color: #d1d1d1
+}
+
+.name a:link{
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  text-decoration: none;
+}
+
+
 
 .title {
   color: #e37001;
